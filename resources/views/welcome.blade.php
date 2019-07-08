@@ -81,32 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
-                </div>
-
-                <div class="links">
-                    <a href="https://laravel.com/docs">Docs</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://blog.laravel.com">Blog</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
-                </div>
-
-                <div class="container">
-                    <p style="width: 80%; padding: 5%; justify-content: center; background: grey; margin: 10% 0% 10% 0%;">
-                        Outstanding Challenges in Blockchain Technology in 2017
-                        It’s been a great year with real progress in Blockchain technology.
-                        Below is a subset of key questions and approaches that remain unsolved:
-                        Data On-Chain or Off-Chain
-                        The first generation of blockchain applications, mainly Bitcoin derivatives do not
-                        store real (non-cryptocurrency) data in the blockchain itself. Instead, they a store
-                        hashe (digital fingerprint). These hashes represent digital assets on-chain. In
-                        this way the blockchain can be used to track ownership of digital assets, or to
-                        act as an immutable log of activity. The advantage of this approach is that it is
-                        simple and privacy preserving, as the data itself is off-chain and not exposed to
-                    </p>
+                    Easy Deal
                 </div>
             </div>
         </div>

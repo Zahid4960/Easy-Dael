@@ -9,12 +9,7 @@
 	        <!--  history from wiki about diu university-->
 	        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
 	          <h6 class="text-uppercase mb-4 font-weight-bold">Easy Deal Corporation</h6>
-	          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-	          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-	          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-	          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-	          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-	          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	          <p>Easy Deal is an E-Commerce website developed by using laravel framework.</p>
 	        </div>
 	        <hr class="w-100 clearfix d-md-none">
 	        <!-- Grid column -->
@@ -22,16 +17,16 @@
 	        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
 	          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
 	          <p>
-	            <a href="https://daffodilvarsity.edu.bd/">Daffodil International University</a>
+	            <a href="">Easy Deal Corporation Office</a>
 	          </p>
 	          <p>
-	            <a href="https://daffodilvarsity.edu.bd/international/international-contact"> Office of the international affiars DIU </a>
+	            <a href=""> Office of CEO</a>
 	          </p>
 	          <p>
-	            <a href="https://dsa.daffodilvarsity.edu.bd/">Diu students affiars</a>
+	            <a href="">Contact with us</a>
 	          </p>
 	          <p>
-	            <a href="https://cdc.daffodilvarsity.edu.bd/">Diu career development center</a>
+	            <a href="">Our services</a>
 	          </p>
 	        </div>
 	        <!-- Grid column -->
@@ -41,7 +36,7 @@
 	        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
 	          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
 	          <p>
-	            <i class="fa fa-home mr-3"></i> 4/2, Sobhanbag, Mirpur Rd, Dhaka 1207</p>
+	            <i class="fa fa-home mr-3"></i> 18/F, Tallabagh, Indira Road, Dhaka 1207</p>
 	          <p>
 	            <i class="fa fa-envelope mr-3"></i> shop.easy-deal@gmail.com </p>
 	          <p>
@@ -60,7 +55,7 @@
 	          <!--Copyright-->
 	          <p class="text-center text-md-left">© 2019 Copyright:
 	              <strong> Easy Deal</strong><br>
-	              <strong>easy Deal Corporation, Dhaka, Bangladesh</strong>
+	              <strong>Easy Deal Corporation, Dhaka, Bangladesh</strong>
 	          </p>
 	        </div>
 	        <!-- Grid column -->

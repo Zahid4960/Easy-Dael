@@ -15,7 +15,7 @@
 				<h3 class="featured-product-text-center"><strong >Featured Products</strong></h3>
 				<hr>
 				<div class="row">
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -29,7 +29,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -43,7 +43,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -57,7 +57,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -71,7 +71,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -85,7 +85,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -99,7 +99,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -113,7 +113,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
@@ -127,7 +127,7 @@
 						{{-- end of card view --}}
 					</div>
 
-					<div class="col-md-3">
+					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">

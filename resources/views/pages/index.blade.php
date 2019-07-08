@@ -24,7 +24,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -38,7 +38,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -52,7 +52,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -66,7 +66,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -80,7 +80,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -94,7 +94,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -108,7 +108,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -122,7 +122,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -136,7 +136,7 @@
 						      <p class="card-text">Rolex beautiful watch</p>
 						      <p class="card-text">BDT-5000/-</p>
 						      <a class="btn btn-outline-success" href="">Add to card</a>
-						    </div> 
+						    </div>
 						</div>
 						{{-- end of card view --}}
 					</div>
@@ -146,8 +146,5 @@
 		{{-- end of content area --}}
 	</div>
 </div>
-{{-- end of side bar + content  --}}
 
 @endsection
-
-	

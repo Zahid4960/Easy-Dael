@@ -11,8 +11,11 @@
 |
 */
 
-// routes for welcome page 
+// routes for welcome page
 Route::get('/', 'PagesController@index');
 
 // routes for contact page
 Route::get('/contact', 'PagesController@contact');
+
+// routes for products pages
+Route::get('/products', 'PagesController@products');

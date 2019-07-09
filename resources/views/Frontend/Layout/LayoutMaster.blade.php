@@ -3,13 +3,13 @@
 <head>
 	<title>Easy Deal</title>
 	{{-- include links --}}
-	@include('layouts.partials.links')
+	@include('Frontend.Layout.LayoutPartials.LayoutLinks')
 </head>
 <body>
 
-	
+
 	{{-- include navbar --}}
-	@include('layouts.partials.navbar')
+	@include('Frontend.Layout.LayoutPartials.LayoutNavbar')
 
 	{{-- yield area --}}
 	@yield('content')
@@ -19,11 +19,11 @@
 	<br>
 
 	{{-- include footer --}}
-	@include('layouts.partials.footer')
+	@include('Frontend.Layout.LayoutPartials.LayoutFooter')
 
 
 	{{-- include scripts --}}
-	@include('layouts.partials.scripts')
+	@include('Frontend.Layout.LayoutPartials.LayoutScripts')
 
 
 

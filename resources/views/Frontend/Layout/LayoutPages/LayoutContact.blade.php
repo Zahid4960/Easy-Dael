@@ -1,4 +1,4 @@
-@extends('layouts.master')
+@extends('Frontend.Layout.LayoutMaster')
 
 
 @section('content')

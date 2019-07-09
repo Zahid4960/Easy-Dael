@@ -1,12 +1,12 @@
 {{-- extends master layout --}}
-@extends('layouts.master')
+@extends('Frontend.Layout.LayoutMaster')
 
 
 
 @section('content')
 
 	{{-- include side bar --}}
-	@include('layouts.partials.sidebar')
+	@include('Frontend.Layout.LayoutPartials.LayoutSidebar')
 
 		{{-- content area --}}
 		<div class="col-md-9">
@@ -17,7 +17,7 @@
 				<div class="row">
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -31,7 +31,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card        card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -45,7 +45,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card       card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -59,7 +59,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card      card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -73,7 +73,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card     card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -87,7 +87,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card    card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -101,7 +101,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card   card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -115,7 +115,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card  card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
@@ -129,7 +129,7 @@
 
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
-						<div class="card">
+						<div class="card card-hover">
 						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>

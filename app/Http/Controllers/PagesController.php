@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Product;
 
 class PagesController extends Controller
 {
@@ -18,7 +19,9 @@ class PagesController extends Controller
 
     // function for all products pages
     public function products(){
-      return view('Frontend.Product.ProductIndex');
+      // query for product
+      $products = Product::orderBy('id', 'desc')->get();
+      return view('Frontend.Product.ProductIndex')->with('products', $products);
     }
 
     // function for login pages

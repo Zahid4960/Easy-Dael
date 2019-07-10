@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Product;
 use Illuminate\Http\Request;
 
+
 class ProductController extends Controller
 {
     /**
@@ -34,9 +35,28 @@ class ProductController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
-        //
+
+     // function for storing product details into the database
+    public function store(Request $request)  {
+
+        $product = new Product;
+
+        $product->title = $request->title;
+        $product->description = $request->description;
+        $product->quantity = $request->quantity;
+        $product->price = $request->price;
+        $product->offer_price = $request->offer_price;
+
+        $product->slug = str_slug($request->title);
+
+        $product->category_id = 1;
+        $product->brand_id = 1;
+        $product->admin_id = 1;
+
+        $product->save();
+
+        return redirect()->route('ProductCreate');
+
     }
 
     /**

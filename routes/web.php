@@ -38,4 +38,6 @@ Route::group(['prefix' => 'admin/products'], function(){
 
   // routes for product create
   Route::get('/create', 'ProductController@create')->name('ProductCreate');
+  // routes for product create
+  Route::post('/create', 'ProductController@store')->name('ProductStore');
 });

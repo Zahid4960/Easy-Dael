@@ -13,7 +13,8 @@
           <h2 style="text-align: center;">Product Details Upload</h2>
           <hr>
           {{-- form start --}}
-          <form style=" padding: 4%;">
+          <form style=" padding: 4%;" action="{{ route('ProductCreate') }}" method="post">
+            {{ csrf_field() }}
             <div class="form-group">
               <label>Product Title</label>
               <input type="name" class="form-control" name="title"  placeholder="Enter product title" required>
@@ -23,15 +24,16 @@
               <textarea  class="form-control" name="description"  placeholder="Enter product description"  required></textarea>
             </div>
             <div class="form-group">
-              <input  class="form-control" id="password" placeholder="Enter product quantity" required>
+              <label>Product Quantity</label>
+              <input  class="form-control"  id="password" name="quantity" placeholder="Enter product quantity" required>
             </div>
             <div class="form-group">
               <label>Product Price</label>
-              <input  class="form-control" id="password" placeholder="Enter product price" required>
+              <input  class="form-control" id="password" name="price" placeholder="Enter product price" required>
             </div>
             <div class="form-group">
               <label>Product Offer Price</label>
-              <input  class="form-control" id="password" placeholder="Enter product offer price" required>
+              <input  class="form-control" id="password" name="offer_price" placeholder="Enter product offer price" required>
             </div>
             <button style="margin-top: 1%;" type="submit" class="btn btn-outline-info  btn-block">Upload Product Details</button>
           </form>

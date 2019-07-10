@@ -22,9 +22,10 @@ class ProductController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
-        //
+
+     // product create page
+    public function create(){
+        return view('Backend.Products.ProductCreate');
     }
 
     /**

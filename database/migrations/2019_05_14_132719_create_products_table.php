@@ -20,10 +20,10 @@ class CreateProductsTable extends Migration
           $table->string('title');
           $table->string('description');
           $table->string('slug');
-          $table->integer('quantity')->default(1);
+          $table->integer('quantity');
           $table->float('price');
           $table->tinyInteger('status')->default(0);
-          $table->float('offer_price')->nullable();
+          $table->float('offer_price');
           $table->integer('admin_id')->unsigned();
           $table->timestamps();
         });

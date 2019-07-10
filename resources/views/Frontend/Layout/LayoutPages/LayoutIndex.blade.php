@@ -18,7 +18,7 @@
 					<div class="col-md-3" style="margin-top: 1%;">
 						{{-- card view --}}
 						<div class="card card-hover">
-						    <img class="card-img-top" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
+						    <img class="card-img-top image-hover" src="{{ asset('images/products/watch.jpeg') }}" alt="Card image cap">
 						    <div class="card-body">
 						      <h5 class="card-title">Watch</h5>
 						      <p class="card-text">Rolex beautiful watch</p>
